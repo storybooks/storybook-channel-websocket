@@ -1,14 +1,9 @@
 # Websocket Channel
 
-Websocket channel for Kadira Storybooks. This channel can be used when the Storybook Renderer should communicate with the Storybook Manager over the network. A channel can be created using the `createChannel` function.
+This contents of this repo was moved to the [Storybook monorepo](https://github.com/storybooks/storybook/) and the NPM package name has been changed.
 
---- 
+- The old name of the package was: **@kadira/storybook-channel-websocket**
+- The new name of the package is: **@storybook/channel-websocket**
+- The location of the code is: https://github.com/storybooks/storybook/tree/lib/channel-websocket
 
-**This repo has been deprecated because it's now included in https://github.com/storybooks/storybook**
-
----
-
-```js
-import createChannel from '@kadira/storybook-channel-websocket'
-const channel = createChannel({ url: 'ws://localhost:9001' })
-```
+The repo you're looking at now is out of date and no longer maintained.
